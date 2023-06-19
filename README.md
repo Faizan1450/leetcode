@@ -30,6 +30,6 @@ Please ensure your contributions adhere to the repository's standards and follow
 
 ## Feedback and Support
 
-If you have any suggestions, feedback, or need support regarding the LeetCode Solutions repository, please feel free to [open an issue](.github/ISSUE_TEMPLATE). We appreciate your engagement and look forward to improving this resource together.
+If you have any suggestions, feedback, or need support regarding the LeetCode Solutions repository, please feel free to [open an issue](https://github.com/Faizan1450/leetcode/issues/new/choose). We appreciate your engagement and look forward to improving this resource together.
 
 Happy coding!
