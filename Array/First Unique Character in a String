@@ -1,0 +1,26 @@
+class Solution {
+    public int firstUniqChar(String s) {
+        int []freq = new int[26];
+        Queue<Character> q = new LinkedList<>();
+        Queue<Integer> q2 = new LinkedList<>();
+
+        for(int i=0; i<s.length(); i++) {
+            char ch = s.charAt(i);
+            q.add(ch);
+            q2.add(i);
+            freq[ch-'a']++;
+
+            while(!q.isEmpty() && freq[q.peek()-'a']!=1) {
+                q.remove();
+                q2.remove();
+            }
+        }
+
+        return q2.isEmpty() ? -1 : q2.peek();
+    }
+}
+
+Complexity anaylysis :-
+Space Complexity :- O(1)
+Time Complexity :- O(N)
+
